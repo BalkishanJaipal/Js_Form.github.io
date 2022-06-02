@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+body{
+
+    background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);
+}
+
+.col-md-6
+{
+   margin-top: 200px !important;
+   background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);
+   padding: 10px;
+
+
+    
+}
+h1{
+    margin: 10px !important;
+    font-weight: bolder;
+
+}
+input[type=text] ,
+input[type=email] ,
+input[type=password],
+input[type=cpassword] 
+{
+    margin-top: 20px  !important;
+}
+
+button{
+    margin-top: 10px !important;
+    padding:10px ;
+    float: left;
+}
+
+.success
+{
+    border: 3px solid green!important;
+}
+
+.error{
+    border: 3px solid red !important;
+}
+
+small{
+    color: red;
+    font-weight: bold;
+    /* margin: 3px !important; */
+    text-align: left !important;
+
+}
